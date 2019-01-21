@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "yt-db-mongo": {
+    "host": "ds243344.mlab.com",
+    "port": 43344,
+    "url": "mongodb://Dev:Sanjukta%40095@ds243344.mlab.com:43344/yt-db",
+    "database": "yt-db",
+    "password": "Sanjukta@095",
+    "name": "yt-db-mongo",
+    "user": "Dev",
+    "connector": "mongodb"
+  }
+}
