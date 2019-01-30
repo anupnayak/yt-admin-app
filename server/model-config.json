@@ -32,7 +32,7 @@
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "yt-db-mongo",
     "public": false
   },
   "Article": {
@@ -44,6 +44,42 @@
     "public": true
   },
   "PersonType": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "Genre": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "City": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "Year": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "VideoType": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "Award": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "AwardEvent": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "SocialMedia": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "Profession": {
+    "dataSource": "yt-db-mongo",
+    "public": true
+  },
+  "Cast": {
     "dataSource": "yt-db-mongo",
     "public": true
   }

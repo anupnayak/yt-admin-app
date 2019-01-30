@@ -16,6 +16,27 @@
     },
     "alias": {
       "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "height": {
+      "type": "string"
+    },
+    "heightInMetre": {
+      "type": "string"
+    },
+    "activeYearStart": {
+      "type": "number"
+    },
+    "activeYearEnd": {
+      "type": "number"
+    },
+    "activeYears": {
+      "type": "string"
+    },
+    "citzenship": {
+      "type": "string"
     }
   },
   "validations": [],

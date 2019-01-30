@@ -1,0 +1,30 @@
+{
+  "name": "City",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cityName": {
+      "type": "string",
+      "required": true
+    },
+    "stateName": {
+      "type": "string",
+      "required": true
+    },
+    "CountryName": {
+      "type": "string",
+      "required": true
+    },
+    "continentName": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

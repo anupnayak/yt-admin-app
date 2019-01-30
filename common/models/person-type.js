@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Persontype) {
+module.exports = function(PersonType) {
 
 };

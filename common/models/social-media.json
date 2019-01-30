@@ -1,0 +1,51 @@
+{
+  "name": "SocialMedia",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "foeignID": {
+      "type": "string",
+      "required": true
+    },
+    "facebookUrl": {
+      "type": "string"
+    },
+    "twitterUrl": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    },
+    "youtubeUrl": {
+      "type": "string"
+    },
+    "snapchatUrl": {
+      "type": "string"
+    },
+    "twitchUrl": {
+      "type": "string"
+    },
+    "tiktokUrl": {
+      "type": "string"
+    },
+    "tumblrUrl": {
+      "type": "string"
+    },
+    "pinterestUrl": {
+      "type": "string"
+    },
+    "dailyMotionUrl": {
+      "type": "string"
+    },
+    "younowUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
